@@ -103,3 +103,52 @@ img{
     margin: 30px 0 0;
     padding-left: 67px;
 }
+
+@media screen and (max-width: 415px){
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        width: 414px;
+    }
+
+    .texto{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 100px;
+        padding: 1px;
+    }
+
+    img.logo{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar a{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        border: 0;
+        padding: 0;
+
+    }
+
+    .fones{
+        margin-left: 30px;
+    }
+
+    .header{
+        width: 540px;
+    }
+
+    .navbar{
+        height: 100px;
+        width: 100px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+     }
